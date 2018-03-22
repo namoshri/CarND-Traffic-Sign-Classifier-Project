@@ -49,7 +49,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text][image1]
+![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/download.png]
 
 ### Design and Test a Model Architecture
 
@@ -123,8 +123,11 @@ Increasing output dimensions for convolution layer and adding dropout later in f
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][1.png] ![alt text][11.png] ![alt text][12.png] 
-![alt text][3.png] ![alt text][8.png]
+![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/1.png] 
+![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/11.png]
+![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/12.png] 
+![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/3.png] 
+![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/8.png]
 
 I found these images on website, all are distinct and signifies different meanings.
 
