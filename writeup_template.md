@@ -2,10 +2,6 @@
 
 ## Writeup
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
-
 **Build a Traffic Sign Recognition Project**
 
 The goals / steps of this project are the following:
@@ -35,7 +31,7 @@ The goals / steps of this project are the following:
 ### Writeup / README
 
 
-You're reading it! and here is a link to my [project code](https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/submit/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -56,8 +52,6 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 ![alt text][image1]
 
 ### Design and Test a Model Architecture
-
-#### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
 As a first step, I decided to convert the images to grayscale because as RGB use doesn't signifies much.
 
@@ -106,22 +100,19 @@ Valid Accuracy = 0.965
 Test Accuracy = 0.934
 
 
-If an iterative approach was chosen:
-* What was the first architecture that was tried and why was it chosen?
-I tried LeNet as as first architecture reference. It was earlier used for MNIST . With change in classification label 
-was able to use classify traffice signals with 0.87 accuracy
 
-* What were some problems with the initial architecture?
+I tried LeNet as as first architecture reference. It was earlier used for MNIST . With change in classification label 
+was able to use classify traffice signals with 0.87 accuracy*
+
+
 It has less classification and accuracy was less. Errors were observed in few images.
 
-* How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
 I did lot of experiments in increasing convolution layer, changing output dimensions, adding multiple FC laters. 
 Adjusting stride and size for pooling etc.
 
-* Which parameters were tuned? How were they adjusted and why?
 In final network, dropout parameter adjusted. Increasing keep_prob from 0.5. to 0.7 or 0.8 shown better accuracy.
 
-* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
+
 Increasing output dimensions for convolution layer and adding dropout later in fully connected layers helped to get better accuracy. 
 
 
@@ -132,10 +123,10 @@ Increasing output dimensions for convolution layer and adding dropout later in f
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][new_images/1.png] ![alt text][new_images/11.png] ![alt text][new_images/12.png] 
-![alt text][new_images/3.png] ![alt text][new_images/8.png]
+![alt text][1.png] ![alt text][11.png] ![alt text][12.png] 
+![alt text][3.png] ![alt text][8.png]
 
-I found this images on website, all are distinct and signifies different meanings.
+I found these images on website, all are distinct and signifies different meanings.
 
 
 
