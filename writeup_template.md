@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 [imageb]: ./examples/11.png "Traffic Sign 2"
 [imagec]: ./examples/12.png "Traffic Sign 3"
 [imaged]: ./examples/3.png "Traffic Sign 4"
-[imagef]: ./examples/8.png "Traffic Sign 5"
+[imagee]: ./examples/8.png "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
