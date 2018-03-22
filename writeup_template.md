@@ -15,14 +15,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
+[image1]: ./examples/download.png "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[imagea]: ./examples/1.png "Traffic Sign 1"
+[imageb]: ./examples/11.png "Traffic Sign 2"
+[imagec]: ./examples/12.png "Traffic Sign 3"
+[imaged]: ./examples/3.png "Traffic Sign 4"
+[imagef]: ./examples/8.png "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -49,15 +49,11 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/download.png]
+![alt text][image1]
 
 ### Design and Test a Model Architecture
 
 As a first step, I decided to convert the images to grayscale because as RGB use doesn't signifies much.
-
-Here is an example of a traffic sign image before and after grayscaling.
-
-![alt text][image2]
 
 As a last step, I normalized further image data because it makes calculation much faster and gives better accuracy
 
@@ -123,11 +119,11 @@ Increasing output dimensions for convolution layer and adding dropout later in f
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/1.png] 
-![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/11.png]
-![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/12.png] 
-![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/3.png] 
-![alt text][https://github.com/namoshri/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/8.png]
+![alt text][imagea]
+![alt text][imageb]
+![alt text][imagec]
+![alt text][imaged]
+![alt text][imagee]
 
 I found these images on website, all are distinct and signifies different meanings.
 
