@@ -116,6 +116,7 @@ Increasing output dimensions for convolution layer and adding dropout later in f
 ### Test a Model on New Images
 
 
+#### image selection: 
 
 Here are five German traffic signs that I found on the web:
 
@@ -126,8 +127,14 @@ Here are five German traffic signs that I found on the web:
 ![alt text][imagee]
 
 I found these images on website, all are distinct and signifies different meanings.
+[Reference set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
+Images choosen such away that, they are from different categories. "No entry" and "Stop" images are
+not bright enough, so little difficult because lighting condition for our model.
 
 
+
+
+####  prediction and accuracy:
 
 Here are the results of the prediction:
 
@@ -140,7 +147,8 @@ Here are the results of the prediction:
 | Turn left ahead		| Turn Left ahead     							|
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. 
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%.
+Accuracy is higher compared to test data and validation image data.
 
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
@@ -154,6 +162,8 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | 0.0					| Ahead only									|
 | 0.0	  				| Road work 					 				|
 | 0.0					| Turn Left ahead     							|
+
+based on probabilities of each of 5 iamges, it is clear that predicted image top class probability and other 4 have far less probability.
 
 
 
